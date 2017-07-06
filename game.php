@@ -56,13 +56,13 @@ function displayScore($card1, $card2) {
 function calcWinner($p1Score, $p2Score) {
 
     if ($p1Score ==  $p2Score) {
-        echo '<h3>Draw!</h3>';
+        return '<h3>Draw!</h3>';
     } else if ($p1Score == 22) {
-        echo '<h3>Player 2 wins!</h3>';
+        return '<h3>Player 2 wins!</h3>';
     } else if ($p1Score > $p2Score || $p2Score == 22) {
-        echo '<h3>Player 1 wins!</h3>';
+        return '<h3>Player 1 wins!</h3>';
     } else {
-        echo '<h3>Player 2 wins!</h3>';
+        return '<h3>Player 2 wins!</h3>';
     }
 }
 

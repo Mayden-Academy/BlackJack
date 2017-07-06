@@ -18,7 +18,7 @@
             <?php $p2Score = deal(); ?>
         </div>
 
-        <div class="result"><?php calcWinner($p1Score, $p2Score); ?></div>
+        <div class="result"><?php echo calcWinner($p1Score, $p2Score); ?></div>
     </div>
 </body>
 </html>
