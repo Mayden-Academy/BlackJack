@@ -2,7 +2,9 @@
 
 require('../game.php');
 
-class StackTest extends PHPUnit_Framework_TestCase
+use PHPUnit\Framework\TestCase;
+
+class Game extends TestCase
 {
 
     const SUITS = ['diamonds', 'hearts', 'clubs', 'spades'];
